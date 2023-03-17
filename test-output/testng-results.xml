@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T16:15:28 IST" name="Default suite" finished-at="2023-03-17T16:17:35 IST" duration-ms="127929">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.demoBlazeRunner@942a29c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-17T16:15:28 IST" name="Default test" finished-at="2023-03-17T16:17:35 IST" duration-ms="127929">
+      <class name="runner.demoBlazeRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:15:28 IST" name="setUpClass" finished-at="2023-03-17T16:16:40 IST" duration-ms="72428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3855d9b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:16:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T16:17:05 IST" duration-ms="23985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:17:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T16:17:12 IST" duration-ms="7956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add items to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:17:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T16:17:22 IST" duration-ms="9670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete an items in the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:17:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-17T16:17:28 IST" duration-ms="6225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place Order of the items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Function"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.demoBlazeRunner@942a29c]" started-at="2023-03-17T16:17:28 IST" name="tearDownClass" finished-at="2023-03-17T16:17:35 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.demoBlazeRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
